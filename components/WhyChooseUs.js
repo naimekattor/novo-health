@@ -5,12 +5,12 @@ const WhyChooseUs = () => {
   return (
     <div className="container mx-auto py-12">
       <div className="bg-white rounded-4xl shadow-[#87CFFF] border-[#87CFFF] border-[1px] shadow-md py-[80px] px-[30px] ">
-        <h2 className="text-[68px] font-bold text-[#03436E] font-sans mb-[40px]">
+        <h2 className="md:text-[68px] text-[40px] font-bold text-[#03436E] font-sans mb-[40px]">
           Why Choose Novo Health?
         </h2>
         <div className="flex flex-col lg:flex-row items-center  gap-4">
           <div>
-            <ul className="text-black text-[30px] font-semibold font-sans space-y-2">
+            <ul className="text-black md:text-[30px] text-[26px] mb-4 font-semibold font-sans space-y-2">
               <li className="flex items-start">
                 <span className="text-black font-bold mr-2">▪</span>
                 24/7 access to medical support and resources.

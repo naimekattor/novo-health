@@ -12,7 +12,7 @@ const Testimonials = () => {
       </h3>
       <div className="space-y-6">
         {/* Testimonial 1 */}
-        <div className="flex items-center bg-gradient-to-r from-[#F1F9FF] to-[#F1F9FF]/70 border-[1px] border-[#199DF6] rounded-2xl shadow-md p-6">
+        <div className="flex md:flex-row flex-col items-center bg-gradient-to-r from-[#F1F9FF] to-[#F1F9FF]/70 border-[1px] border-[#199DF6] rounded-2xl shadow-md p-6">
           <Image
             src="/images/person1.jpeg"
             alt="Patient 1"
@@ -29,7 +29,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Testimonial 2 */}
-        <div className="flex items-center bg-gradient-to-r from-[#F1F9FF] to-[#F1F9FF]/70 border-[1px] border-[#199DF6] rounded-2xl shadow-md p-6">
+        <div className="flex  md:flex-row flex-col items-center bg-gradient-to-r from-[#F1F9FF] to-[#F1F9FF]/70 border-[1px] border-[#199DF6] rounded-2xl shadow-md p-6">
           <Image
             src="/images/person2.jpeg"
             alt="Patient 2"
@@ -46,7 +46,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Testimonial 3 */}
-        <div className="flex items-center bg-gradient-to-r  from-[#F1F9FF] to-[#F1F9FF]/70 border-[1px] border-[#199DF6] rounded-2xl shadow-md p-6">
+        <div className="flex  md:flex-row flex-col items-center bg-gradient-to-r  from-[#F1F9FF] to-[#F1F9FF]/70 border-[1px] border-[#199DF6] rounded-2xl shadow-md p-6">
           <Image
             src="/images/person3.jpeg"
             alt="Patient 3"

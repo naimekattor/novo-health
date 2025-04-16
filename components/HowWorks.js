@@ -14,25 +14,6 @@ const HowWorks = () => {
         selected services. You can also see our FAQ section for more guidance.
       </p>
       <div className="grid md:grid-cols-2 gap-8 items-center justify-center">
-        <style jsx>{`
-          .circle {
-            width: 70px;
-            height: 70px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(
-              to bottom,
-              rgba(135, 207, 255, 0.8),
-              rgba(26, 139, 214, 0.8)
-            );
-            color: white;
-            font-weight: bold;
-            border-radius: 50%;
-            font-size: 36px;
-            z-index: 10;
-          }
-        `}</style>
         <div className="grid grid-cols-1 gap-4 w-full">
           {/* Step 1 */}
           <div className="flex items-start relative mb-8">
@@ -75,12 +56,14 @@ const HowWorks = () => {
           </div>
 
           {/* Step 3 */}
-          <div className="flex items-start">
-            <div className="w-[70px] h-[70px] flex items-center justify-center bg-gradient-to-b from-[#87CFFF]/80 to-[#1A8BD6]/80 text-[36px] text-white font-bold rounded-full mr-4">
-              3
+          <div className="flex items-start relative mb-8">
+            <div className="flex flex-col items-center">
+              <div className="w-[70px] h-[70px] flex items-center justify-center bg-gradient-to-b from-[#87CFFF]/80 to-[#1A8BD6]/80 text-white font-bold rounded-full text-[36px] z-10">
+                3
+              </div>
             </div>
-            <div>
-              <h3 className="md:text-[36px] text-[26px] text-black font-semibold mb-2">
+            <div className="ml-4">
+              <h3 className="md:text-[36px] text-[26px] text-black font-semibold mb-4">
                 Meet Your Doctor
               </h3>
               <p className="md:text-[20px] text-[16px] text-black font-normal w-3/4">
