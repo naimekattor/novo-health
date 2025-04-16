@@ -14,18 +14,18 @@ const Team = () => {
       </p>
       <div className="space-y-25 pt-10">
         {/* Specialist 1 */}
-        <div className="flex flex-col lg:flex-row items-center bg-gradient-to-r from-[#F1F9FF] to-[#D6EDFF]  shadow-md  relative ">
-          <div className="relative w-[350px]">
+        <div className="flex flex-col md:flex-row items-center bg-gradient-to-r from-[#F1F9FF] to-[#D6EDFF]  shadow-md  relative ">
+          <div className="relative w-[350px] md:block ">
             <Image
               src={"/images/doctor1.png"}
               alt="Dr. Mark Lee"
               width={350}
               height={525}
-              className="absolute bottom-[-220px] mb-4 lg:mb-0 lg:mr-6"
+              className="md:absolute bottom-[-220px] mb-4 lg:mb-0 lg:mr-6"
             />
           </div>
 
-          <div className="flex-1 h-[437px] flex items-center justify-center p-12">
+          <div className="flex-1 min-h-[437px] flex items-center justify-center p-12">
             <div>
               <h3 className="text-[32px] font-semibold font-sans text-black mb-2">
                 Dr. Mark Lee (Dermatologist)
@@ -55,17 +55,17 @@ const Team = () => {
           </div>
         </div>
         {/* Specialist 2 */}
-        <div className="flex flex-col h-[437px] lg:flex-row items-center bg-gradient-to-r from-[#F1F9FF] to-[#D6EDFF]  shadow-md  relative ">
-          <div className="relative w-[350px]">
+        <div className="flex flex-col min-h-[437px] md:flex-row items-center bg-gradient-to-r from-[#F1F9FF] to-[#D6EDFF]  shadow-md  relative ">
+          <div className="relative w-[350px] md:block ">
             <Image
               src={"/images/doctor2.png"}
               alt="Dr. Mark Lee"
               width={350}
               height={525}
-              className="absolute bottom-[-220px] mb-4 lg:mb-0 lg:mr-6 h-[525px] w-[350px]"
+              className="md:absolute bottom-[-220px] mb-4 lg:mb-0 lg:mr-6 h-[525px] w-[350px]"
             />
           </div>
-          <div className="flex-1">
+          <div className="flex-1 p-12 min-h-[437px]">
             <h3 className="text-[32px] font-semibold font-sans text-black mb-2">
               Dr. Sarah Johnson (Cardiologist)
             </h3>

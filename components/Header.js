@@ -7,10 +7,11 @@ import {
   NavbarToggle,
 } from "flowbite-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Header() {
   return (
-    <Navbar fluid rounded className="container mx-auto">
+    <Navbar fluid rounded className="container mx-auto cursor-pointer">
       <NavbarBrand className="flex items-center gap-3">
         <Image
           src={"/images/logo.png"}
@@ -28,9 +29,9 @@ export function Header() {
         <NavbarToggle />
       </div>
       <NavbarCollapse>
-        <NavbarLink href="#" className=" custom-hover-color">
+        <Link href="/" className=" custom-hover-color">
           Home
-        </NavbarLink>
+        </Link>
         <NavbarLink href="#" className="custom-hover-color">
           About
         </NavbarLink>

@@ -22,12 +22,12 @@ const Mission = () => {
           {/* Text Section */}
           <div>
             <p className="text-black  text-[20px] font-normal font-sans mb-4">
-              Novo Health's belief in accessible, quality healthcare, combining
-              expert professionals with innovative technology to make health
-              management seamless and convenient.
+              Novo Health&apos;s belief in accessible, quality healthcare,
+              combining expert professionals with innovative technology to make
+              health management seamless and convenient.
             </p>
             <p className="text-black  text-[20px] font-normal font-sans mb-4">
-              Emphasize Novo Health's approach to personalized care through
+              Emphasize Novo Health&apos;s approach to personalized care through
               continuous health monitoring, virtual consultations, and 24/7
               access to resources.
             </p>
