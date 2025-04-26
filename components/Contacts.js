@@ -89,12 +89,8 @@ const Contacts = () => {
         {/* Map Section */}
         <div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.902021637243!2d90.36710731543197!3d23.75083739459357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b85c8c8c8c8d%3A0x8c8c8c8c8c8c8c8c!2sDhanmondi%20AC%20Land%20Office!5e0!3m2!1sen!2sbd!4v1680000000000!5m2!1sen!2sbd"
-            width="100%"
-            height="400"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
+            src="https://www.google.com/maps/embed?..."
+            title="Google Maps Location"
             className="rounded-lg shadow-md"
           ></iframe>
         </div>

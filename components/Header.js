@@ -14,18 +14,20 @@ export function Header() {
     <Navbar fluid rounded className="container mx-auto cursor-pointer">
       <NavbarBrand className="flex items-center gap-3">
         <Image
-          src={"/images/logo.png"}
-          className="mr-3 h-6 sm:h-9"
+          src="/images/logo.png"
           alt="Logo"
-          width={50}
-          height={50}
+          width={64}
+          height={63}
+          className="mr-3 h-9"
         />
         <span className="self-center whitespace-nowrap text-xl font-bold text-[#0E8DE2] -ml-4">
           Novo Health
         </span>
       </NavbarBrand>
       <div className="flex md:order-2">
-        <Button className="bg-[#199DF6] cursor-pointer">Sign In</Button>
+        <Link href="/login">
+          <Button className="bg-[#199DF6] cursor-pointer">Sign In</Button>
+        </Link>
         <NavbarToggle />
       </div>
       <NavbarCollapse>
@@ -41,9 +43,9 @@ export function Header() {
         <NavbarLink href="#" className="custom-hover-color">
           Pricing
         </NavbarLink>
-        <NavbarLink href="#" className="custom-hover-color">
+        <Link href="/contact" className="custom-hover-color">
           Contact
-        </NavbarLink>
+        </Link>
       </NavbarCollapse>
     </Navbar>
   );

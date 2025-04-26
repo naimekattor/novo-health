@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const HowWorks = () => {
   return (
-    <div className="bg-white py-12 container mx-auto">
+    <div className="bg-white py-12 px-4 container mx-auto">
       <h2 className="text-3xl font-bold text-center mb-4">
         How <span className="text-[#199DF6]">our platform</span> works
       </h2>
-      <p className="text-center text-gray-600 mb-12 ">
+      <p className="text-center text-gray-600 mb-12  ">
         Navigating your healthcare journey with Novo Health is seamless. Just
         follow these steps mentioned below to <br></br> proceed with your
         selected services. You can also see our FAQ section for more guidance.
@@ -18,7 +18,7 @@ const HowWorks = () => {
           {/* Step 1 */}
           <div className="flex items-start relative mb-8">
             <div className="flex flex-col items-center">
-              <div className="w-[70px] h-[70px] flex items-center justify-center bg-gradient-to-b from-[#87CFFF]/80 to-[#1A8BD6]/80 text-white font-bold rounded-full text-[36px] z-10">
+              <div className="md:w-[70px] w-[50px] md:h-[70px] h-[50px] flex items-center justify-center bg-gradient-to-b from-[#87CFFF]/80 to-[#1A8BD6]/80 text-white font-bold rounded-full text-[36px] z-10">
                 1
               </div>
               <div className="w-[2px] h-[103px] bg-black mt-8"></div>
@@ -38,7 +38,7 @@ const HowWorks = () => {
           {/* Step 2 */}
           <div className="flex items-start relative mb-8">
             <div className="flex flex-col items-center">
-              <div className="w-[70px] h-[70px] flex items-center justify-center bg-gradient-to-b from-[#87CFFF]/80 to-[#1A8BD6]/80 text-white font-bold rounded-full text-[36px] z-10">
+              <div className="md:w-[70px] w-[50px] md:h-[70px] h-[50px] flex items-center justify-center bg-gradient-to-b from-[#87CFFF]/80 to-[#1A8BD6]/80 text-white font-bold rounded-full text-[36px] z-10">
                 2
               </div>
               <div className="w-[2px] h-[103px] bg-black mt-8"></div>
@@ -58,7 +58,7 @@ const HowWorks = () => {
           {/* Step 3 */}
           <div className="flex items-start relative mb-8">
             <div className="flex flex-col items-center">
-              <div className="w-[70px] h-[70px] flex items-center justify-center bg-gradient-to-b from-[#87CFFF]/80 to-[#1A8BD6]/80 text-white font-bold rounded-full text-[36px] z-10">
+              <div className="md:w-[70px] w-[50px] md:h-[70px] h-[50px] flex items-center justify-center bg-gradient-to-b from-[#87CFFF]/80 to-[#1A8BD6]/80 text-white font-bold rounded-full text-[36px] z-10">
                 3
               </div>
             </div>

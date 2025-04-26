@@ -29,9 +29,10 @@ const WhyChooseUs = () => {
             <Image
               src="/images/whychoose.png"
               alt="Why Choose Us"
-              width={450}
-              height={381}
-              className="rounded-4xl h-[381px] shadow-[#87CFFF] border-[#87CFFF] border-[1px]"
+              width={360}
+              height={216}
+              loading="lazy"
+              className="rounded-4xl shadow-[#87CFFF] border-[#87CFFF] border-[1px]"
             />
           </div>
         </div>

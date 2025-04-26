@@ -19,7 +19,7 @@ const openSans = OpenSans({
 export const metadata = {
   title: "Novo Health",
   description:
-    "Novo Health - Empowering your well-being with personalized healthcare solutions and expert guidance.",
+    "Novo Health - Your reliable support for all digital health needs.",
 };
 
 export default function RootLayout({ children }) {
